@@ -81,4 +81,24 @@ write.csv(clean_combined_data, file = "2023clean_tripdata.csv", row.names = FALS
 ````
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/duplicates%20validation.png)
 
-We have no duplicates, so the preparation stage of our data analysis is covered.
+We have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL. Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge, and definitely expanded my knowledge with working with such a massive dataset.
+
+I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data, so this code chunk leverages CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column and filters out erroneous ride information with 0 ride minutes.
+
+````SQL
+SELECT *,
+  TIMESTAMP_DIFF(ended_at, started_at, minute) as ride_length_mins,
+  CASE
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 1 THEN 'Sunday'
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 2 THEN 'Monday'
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 3 THEN 'Tuesday'
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 4 THEN 'Wednesday'
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 5 THEN 'Thursday'
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 6 THEN 'Friday'
+    WHEN EXTRACT(DAYOFWEEK FROM started_at) = 7 THEN 'Saturday'
+    ELSE 'Unknown' 
+  END AS day_of_week
+FROM `cyclistic-trustin.cyclistic.2023clean_tripdata` 
+WHERE TIMESTAMP_DIFF(ended_at, started_at, minute)> 0;
+````
+
