@@ -98,7 +98,7 @@ SELECT *,
     WHEN EXTRACT(DAYOFWEEK FROM started_at) = 7 THEN 'Saturday'
     ELSE 'Unknown' 
   END AS day_of_week
-FROM `cyclistic-trustin.cyclistic.2023clean_tripdata` 
+FROM `project.2023clean_tripdata` 
 WHERE TIMESTAMP_DIFF(ended_at, started_at, minute)> 0;
 ````
 
