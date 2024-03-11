@@ -81,7 +81,9 @@ write.csv(clean_combined_data, file = "2023clean_tripdata.csv", row.names = FALS
 ````
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/duplicates%20validation.png)
 
-We have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL. Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge, and definitely expanded my knowledge with working with such a massive dataset.
+> We have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL.
+>
+> Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge, and definitely expanded my knowledge with working with such a massive dataset.
 
 I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data, so this code chunk below:
 
