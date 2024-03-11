@@ -83,7 +83,10 @@ write.csv(clean_combined_data, file = "2023clean_tripdata.csv", row.names = FALS
 
 We have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL. Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge, and definitely expanded my knowledge with working with such a massive dataset.
 
-I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data, so this code chunk below leverages CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column and filters out erroneous ride information with 0 ride minutes:
+I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data, so this code chunk below:
+1) Forms ride_length_mins from calculating the difference between started_at and ended_at minutes
+2) CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column to calculate the day of the week
+3) Filters out erroneous ride information for rides with less than 1 minute of ride length
 
 ````SQL
 SELECT *,
@@ -101,4 +104,24 @@ SELECT *,
 FROM `project.2023clean_tripdata` 
 WHERE TIMESTAMP_DIFF(ended_at, started_at, minute)> 0;
 ````
+With this stage of preparation covered, I was now ready to import into Tableau to analyze, visualize, and quantify my findings and form actionable insights.
+
+## Analysis
+
+I wanted to start my analysis with some preliminary summary statistics to help me and my audience to have some context behind the data. As previously mentioned, I wanted to answer these questions:
+
+1. How do different subscription user types use the bike share differently?
+2. Why would casual riders buy annual memberships?
+3. How can the business use digital media to influence casual riders to become members?
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/total%20number%20of%20riders%20per%20subscriber%20type.png)
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/avg%20ride%20length.png)
+
+These two visuals tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than annual members, but annual members take more rides in total. We can already see how casual and annual members' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
+
+
+
+
+
 
