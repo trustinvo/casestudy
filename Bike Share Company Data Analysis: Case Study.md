@@ -1,5 +1,66 @@
 # Bike Share Company Data Analysis: Case Study
 
-## Objective
+## Introduction
 
-With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a mocked up bike share company.
+With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and __________. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member".
+
+With a detailed analysis, I wanted to answer these questions:
+
+1. How do different subscription user types use the bike share differently?
+2. Why would casual riders buy annual memberships?
+3. How can the business use digital media to influence casual riders to become members?
+
+## Preparation
+
+Because the data was on a month-to-month basis, I knew I was going to be able to have a large sample size to draw insights from. The bigger the sample size, the more accurate the analysis will be. The available data were monthly datasets, and to analyze the whole year, I was going to have to combine the last 12 months of data. Because of the size of the dataset, I leveraged R, knowing R's capabilities of processing large amounts of data efficiently. With any dataset, it is essential to clean and prepare the data to ensure a clear and accurate analysis.
+
+This code chunk quickly merged all the monthly data .csv files:
+````R
+# Install and load the dplyr package if not already installed
+# 
+install.packages("dplyr")
+library(dplyr)
+
+# Get a list of all CSV files in the current working directory
+csv_files <- list.files(pattern = "\\.csv$")
+
+# Check if there are any CSV files
+if (length(csv_files) == 0) {
+  stop("No CSV files found in the current directory.")
+}
+
+# Read and combine CSV files into one data frame
+combined_data <- lapply(csv_files, read.csv) %>%
+  bind_rows()
+
+# Save the combined data to a new CSV file
+write.csv(combined_data, "all2023_tripdata.csv", row.names = FALSE)
+````
+
+This code chunk validated all ride_IDs had the same amount of 16 characters to be used as a primary key in our analysis:
+````R
+# Check the number of characters in each ride_id
+ride_id_lengths <- nchar(combined_data$ride_id)
+
+# Check if all ride_id values have 16 characters
+all_16_characters <- all(ride_id_lengths == 16)
+
+# If all_16_characters is TRUE, then all ride_id values have 16 characters
+if (all_16_characters) {
+  print("All ride_id values have 16 characters.")
+} else {
+  print("Not all ride_id values have 16 characters.")
+}
+````
+
+This code chunk removed all blank rows:
+````R
+# Replace empty strings with NA in combined_data
+combined_data[combined_data == ""] <- NA
+
+# Remove rows with missing values
+clean_combined_data <- na.omit(combined_data)
+````
+
+
+
