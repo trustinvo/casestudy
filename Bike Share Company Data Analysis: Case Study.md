@@ -118,19 +118,19 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/avg%20ride%20length.png)
 
-These two visuals tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than member subscribers, but member subscribers take more rides in total. We can already see how casual and annual subscribers' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
+These two visuals above tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than member subscribers, but member subscribers take more rides in total. We can already see how casual and annual subscribers' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/total%20rides%20per%20day.png)
 
-With the SQL code I mentioned previously, we created an identifier for the day of the week that a ride took place. Here, the total number of rides from each subscriber type is broken down by the day of the week. From this visual, we can see an inverse relationship -- casual subscribers take less rides on weekdays (and more on ends) and member subscribers take more rides on weekdays (and less on weekends). The natural assumption is that casual subscribers are visitors/tourists on weekends, while member subscribers are typically locals to the area, utilizing bikes as a form of regular transportation. Let's investigate that further by leveraging geographical information the dataset has available to us. 
+With the SQL code I mentioned previously, we created an identifier for the day of the week that a ride took place. Above, the total number of rides from each subscriber type is broken down by the day of the week. From this visual, we can see an inverse relationship -- casual subscribers take less rides on weekdays (and more on ends) and member subscribers take more rides on weekdays (and less on weekends). The natural assumption is that casual subscribers are visitors/tourists on weekends, while member subscribers are typically locals to the area, utilizing bikes as a form of regular transportation. Let's investigate that further by leveraging geographical information the dataset has available to us. 
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20casual.png)
 
-From this density geographical heat map, we can see that an overwhelming majority of casual subscribers start their rides at the Chicago Harbor.
+From this density geographical heat map above, we can see that an overwhelming majority of casual subscribers start their rides at the Chicago Harbor.
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20members.png)
 
-From this density geographical heat map, we can see that majority of member subscribers started their rides in town, presumably around office/apartment buildings. 
+From this density geographical heat map above, we can see that majority of member subscribers started their rides in town, presumably around office/apartment buildings. 
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/ending%20location%20casual.png)
 
