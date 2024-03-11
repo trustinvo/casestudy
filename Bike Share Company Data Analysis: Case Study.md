@@ -84,9 +84,6 @@ write.csv(clean_combined_data, file = "2023clean_tripdata.csv", row.names = FALS
 We have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL. Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge, and definitely expanded my knowledge with working with such a massive dataset.
 
 I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data, so this code chunk below:
-1) Forms ride_length_mins from calculating the difference between started_at and ended_at minutes
-2) CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column to calculate the day of the week
-3) Filters out erroneous ride information for rides with less than 1 minute of ride length
 
 ````SQL
 SELECT *,
@@ -104,6 +101,10 @@ SELECT *,
 FROM `project.2023clean_tripdata` 
 WHERE TIMESTAMP_DIFF(ended_at, started_at, minute)> 0;
 ````
+> 1) Forms ride_length_mins from calculating the difference between started_at and ended_at minutes
+2) CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column to calculate the day of the week
+3) Filters out erroneous ride information for rides with less than 1 minute of ride length
+
 With this stage of preparation covered, I was now ready to import into Tableau to analyze, visualize, and quantify my findings and form actionable insights.
 
 ## Analysis
