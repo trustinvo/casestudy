@@ -104,8 +104,8 @@ FROM `project.2023clean_tripdata`
 WHERE TIMESTAMP_DIFF(ended_at, started_at, minute)> 0;
 ````
 > 1) Forms ride_length_mins from calculating the difference between started_at and ended_at minutes
-2) CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column to calculate the day of the week
-3) Filters out erroneous ride information for rides with less than 1 minute of ride length
+> 2) CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column to calculate the day of the week
+> 3) Filters out erroneous ride information for rides with less than 1 minute of ride length
 
 With this stage of preparation covered, I was now ready to import into Tableau to analyze, visualize, and quantify my findings and form actionable insights.
 
