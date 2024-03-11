@@ -2,7 +2,7 @@
 
 ## Introduction
 
-### With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and __________. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member". [[ Define casual and member subscribers ]]
+With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and __________. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member". [[ Define casual and member subscribers ]]
 
 With a detailed analysis, I wanted to answer these questions:
 
@@ -118,7 +118,7 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/avg%20ride%20length.png)
 
-These two visuals above tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than member subscribers, but member subscribers take more rides in total. We can already see how casual and annual subscribers' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
+> These two visuals above tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than member subscribers, but member subscribers take more rides in total. We can already see how casual and annual subscribers' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/total%20rides%20per%20day.png)
 
