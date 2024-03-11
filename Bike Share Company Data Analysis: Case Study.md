@@ -125,7 +125,11 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/total%20rides%20per%20day.png)
 
-> With the SQL code I mentioned previously, we created an identifier for the day of the week that a ride took place. Above, the total number of rides from each subscriber type is broken down by the day of the week. From this visual, we can see an inverse relationship -- casual subscribers take less rides on weekdays (and more on ends) and member subscribers take more rides on weekdays (and less on weekends). The natural assumption is that casual subscribers are visitors/tourists on weekends, while member subscribers are typically locals to the area, utilizing bikes as a form of regular transportation. Let's investigate that further by leveraging geographical information the dataset has available to us. 
+> With the SQL code I mentioned previously, I created an identifier for the day of the week that a ride took place. Above, the total number of rides from each subscriber type is broken down by the day of the week. From this visual, we can see an inverse relationship -- casual subscribers take less rides on weekdays (and more on ends) and member subscribers take more rides on weekdays (and less on weekends). The natural assumption is that casual subscribers are visitors/tourists on weekends, while member subscribers are typically locals to the area, utilizing bikes as a form of regular transportation. Let's investigate that further by leveraging geographical information the dataset has available to us.
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/avg%20ride%20length%20per%20month.png)
+
+> This line chart above displays the different monthly behavior of the two subscription types. Casual subscribers had an influx of riders in the months that are typically warmer (April to September) and gradually tapered off in the following months. Member subscribers' behavior was a lot more constant month-to-month, supporting the idea that member subscribers are typically locals, while casual subscribers are likely visitors/tourists.
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20casual.png)
 
