@@ -126,17 +126,17 @@ With the SQL code I mentioned previously, we created an identifier for the day o
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20casual.png)
 
-From this density geographical heat map above, we can see that an overwhelming majority of casual subscribers start their rides at the Chicago Harbor.
+> From this density geographical heat map above, we can see that an overwhelming majority of casual subscribers start their rides at the Chicago Harbor.
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20members.png)
 
-From this density geographical heat map above, we can see that majority of member subscribers started their rides in town, presumably around office/apartment buildings. 
+> From this density geographical heat map above, we can see that majority of member subscribers started their rides in town, presumably around office/apartment buildings. 
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/ending%20location%20casual.png)
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/ending%20location%20members.png)
 
-Here's the kicker -- the ending locations of both subscriber types are nearly identical. We can conclude that both subscriber types only really vary where they start their rides, but are ending their rides around the same places -- most notably Fulton River District and Logan Square. These neighborhoods are communities known for their vibrant eateries/bars.
+> Here's the kicker -- the ending locations of both subscriber types are nearly identical. We can conclude that both subscriber types only really vary where they start their rides, but are ending their rides around the same places -- most notably Fulton River District and Logan Square. These neighborhoods are communities known for their vibrant eateries/bars.
 
 
 
