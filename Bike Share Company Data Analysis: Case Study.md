@@ -107,7 +107,7 @@ WHERE TIMESTAMP_DIFF(ended_at, started_at, minute)> 0;
 > 2) CASE WHEN and EXTRACT statements from TIMESTAMP data format in the started_at column to calculate the day of the week
 > 3) Filters out erroneous ride information for rides with less than 1 minute of ride length
 
-With this stage of preparation covered, I was now ready to import into Tableau to analyze, visualize, and quantify my findings and form actionable insights.
+With this stage of preparation covered, I was now ready to import into Tableau to analyze, visualize, and quantify my findings to eventually form actionable insights.
 
 ## Analysis
 
