@@ -2,7 +2,7 @@
 
 ## Introduction
 
-With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and __________. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member".
+With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and __________. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member". [[ Define casual and member subscribers ]]
 
 With a detailed analysis, I wanted to answer these questions:
 
@@ -118,7 +118,28 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/avg%20ride%20length.png)
 
-These two visuals tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than annual members, but annual members take more rides in total. We can already see how casual and annual members' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
+These two visuals tell us an interesting story from our 2023 data. Casual subscribers ride the bikes for a longer ride duration on average than member subscribers, but member subscribers take more rides in total. We can already see how casual and annual subscribers' behavior differ. But let's utillize additional available information to form some more insights and paint a clearer picture.
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/total%20rides%20per%20day.png)
+
+With the SQL code I mentioned previously, we created an identifier for the day of the week that a ride took place. Here, the total number of rides from each subscriber type is broken down by the day of the week. From this visual, we can see an inverse relationship -- casual subscribers take less rides on weekdays (and more on ends) and member subscribers take more rides on weekdays (and less on weekends). The natural assumption is that casual subscribers are visitors/tourists on weekends, while member subscribers are typically locals to the area, utilizing bikes as a form of regular transportation. Let's investigate that further by leveraging geographical information the dataset has available to us. 
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20casual.png)
+
+From this density geographical heat map, we can see that an overwhelming majority of casual subscribers start their rides at the Chicago Harbor.
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/starting%20location%20members.png)
+
+From this density geographical heat map, we can see that majority of member subscribers started their rides in town, presumably around office/apartment buildings. 
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/ending%20location%20casual.png)
+
+![alt text](https://github.com/trustinvo/casestudy/blob/main/ending%20location%20members.png)
+
+Here's the kicker -- the ending locations of both subscriber types are nearly identical. We can conclude that both subscriber types only really vary where they start their rides, but are ending their rides around the same places -- most notably Fulton River District and Logan Square. These neighborhoods are communities known for their vibrant eateries/bars.
+
+
+
 
 
 
