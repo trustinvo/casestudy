@@ -61,6 +61,24 @@ combined_data[combined_data == ""] <- NA
 # Remove rows with missing values
 clean_combined_data <- na.omit(combined_data)
 ````
+![alt text](https://github.com/trustinvo/casestudy/blob/main/data%20clean.png)
 
+We can see that we removed ~1.3 million observations of blank rows, which will be helpful in our analysis as well as data processing load.
 
+This code chunk counted, checked, and printed number of duplicates:
+````R
+# Check for duplicates in clean_combined_data
+duplicates <- duplicated(clean_combined_data)
 
+# Count the number of duplicate rows
+num_duplicates <- sum(duplicates)
+
+# Print the count of duplicate rows
+print(num_duplicates)
+
+# Export dataframe into csv
+write.csv(clean_combined_data, file = "2023clean_tripdata.csv", row.names = FALSE )
+````
+![alt text](https://github.com/trustinvo/casestudy/blob/main/duplicates%20validation.png)
+
+We have no duplicates, so the preparation stage of our data analysis is covered.
