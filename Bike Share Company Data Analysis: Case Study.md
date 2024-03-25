@@ -160,7 +160,8 @@ Despite variations in starting locations, both subscriber types tend to end thei
 These marketing efforts can be used to influence casual riders to become members by leveraging digital media strategies tailored to address their needs and preferences. 
 
 This could include targeted advertising campaigns highlighting:
-- Benefits of annual memberships, such as cost savings for frequent users, convenience of unlimited rides, and access to member-exclusive perks. - Utilize social media platforms to engage with casual riders, share testimonials from satisfied members, and offer limited-time promotions or discounts to incentivize membership sign-ups.
+- Benefits of annual memberships, such as cost savings for frequent users, convenience of unlimited rides, and access to member-exclusive perks.
+-  Utilize social media platforms to engage with casual riders, share testimonials from satisfied members, and offer limited-time promotions or discounts to incentivize membership sign-ups.
 - Providing user-friendly online registration processes and offering flexible membership options can also encourage casual riders to make the switch to becoming long-term members.
 
 Casual riders might opt for annual memberships due to factors such as cost-effectiveness for frequent users, convenience, or potential incentives offered by the bike share program. Although casual riders typically use the service sporadically, an annual membership could provide them with added benefits like discounted rates or access to exclusive events or locations. Moreover, if casual riders find themselves using the bike share service frequently during their visits to the area, they may see value in investing in an annual membership for long-term savings and convenience.
