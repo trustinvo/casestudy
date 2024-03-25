@@ -142,6 +142,12 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 > Here's the kicker -- the ending locations of both subscriber types are nearly identical. We can conclude that both subscriber types only really vary where they start their rides, but are ending their rides around the same places -- most notably Fulton River District and Logan Square. These neighborhoods are communities known for their vibrant eateries/bars.
 
+By observing consumer behavior, we can form conclusions that answer the questions we planned to answer at the beginning of this analysis. As a reminder, the questions are below:
+
+
+1. How do different subscription user types use the bike share differently?
+2. Why would casual riders buy annual memberships?
+3. How can the business use digital media to influence casual riders to become members?
 
 
 
