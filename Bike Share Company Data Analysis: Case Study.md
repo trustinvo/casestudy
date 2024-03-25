@@ -2,7 +2,7 @@
 
 ## Introduction
 
-With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and __________. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member". [[ Define casual and member subscribers ]]
+With this project, I wanted to experiment and challenge myself with a massive dataset. This dataset had over 5 million observations of publically available data of a bike share business. Within the 5 million observations, the dataset contained columns indicating bike ride information, as well as user information. Ride information included but wasn't limited to: starting/ending location, time/date, and ride type. User information included subscription type each customer was. For context, there are two subscription types in this dataset -- "casual" and "member". Casual subscribers use the service on a pay-as-you-go, low commitment basis. Member subscribers purchased a long-term subscription to the service to enjoy more benefits.
 
 With a detailed analysis, I wanted to answer these questions:
 
@@ -142,12 +142,29 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 > Here's the kicker -- the ending locations of both subscriber types are nearly identical. We can conclude that both subscriber types only really vary where they start their rides, but are ending their rides around the same places -- most notably Fulton River District and Logan Square. These neighborhoods are communities known for their vibrant eateries/bars.
 
-By observing consumer behavior, we can form conclusions that answer the questions we planned to answer at the beginning of this analysis. As a reminder, the questions are below:
+## Conclusion and Wrap Up
 
+By observing consumer behavior, we can form conclusions that answer the questions we planned to answer at the beginning of this analysis.
 
 1. How do different subscription user types use the bike share differently?
+   - Member subscribers 
 2. Why would casual riders buy annual memberships?
 3. How can the business use digital media to influence casual riders to become members?
+
+- Casual subscribers tend to ride bikes for longer durations on average compared to member subscribers, while member subscribers take more rides in total.
+- Usage patterns: casual subscribers are more active on weekends and during warmer months, suggesting they may be visitors or tourists. In contrast, member subscribers are more active on weekdays and exhibit more consistent month-to-month behavior, indicating they are likely local residents using bikes for regular transportation.
+- Casual subscribers predominantly start their rides at tourist-centric areas like Chicago Harbor, member subscribers primarily start their rides in town, indicating they are likely local residents using bikes for regular transportation.
+
+Despite variations in starting locations, both subscriber types tend to end their rides in similar areas, such as Fulton River District and Logan Square, known for vibrant eateries and bars. This suggests that while their starting points differ, the destinations are relatively consistent, highlighting potential areas for focused marketing efforts.
+
+These marketing efforts can be used to influence casual riders to become members by leveraging digital media strategies tailored to address their needs and preferences. 
+
+This could include targeted advertising campaigns highlighting:
+- Benefits of annual memberships, such as cost savings for frequent users, convenience of unlimited rides, and access to member-exclusive perks. - Utilize social media platforms to engage with casual riders, share testimonials from satisfied members, and offer limited-time promotions or discounts to incentivize membership sign-ups.
+- Providing user-friendly online registration processes and offering flexible membership options can also encourage casual riders to make the switch to becoming long-term members.
+
+Casual riders might opt for annual memberships due to factors such as cost-effectiveness for frequent users, convenience, or potential incentives offered by the bike share program. Although casual riders typically use the service sporadically, an annual membership could provide them with added benefits like discounted rates or access to exclusive events or locations. Moreover, if casual riders find themselves using the bike share service frequently during their visits to the area, they may see value in investing in an annual membership for long-term savings and convenience.
+
 
 
 
