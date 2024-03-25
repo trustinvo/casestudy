@@ -147,7 +147,6 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 By observing consumer behavior, we can form conclusions that answer the questions we planned to answer at the beginning of this analysis.
 
 1. How do different subscription user types use the bike share differently?
-   - Member subscribers 
 2. Why would casual riders buy annual memberships?
 3. How can the business use digital media to influence casual riders to become members?
 
