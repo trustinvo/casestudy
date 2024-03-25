@@ -65,19 +65,16 @@ clean_combined_data <- na.omit(combined_data)
 
 > We can see that we removed ~1.3 million observations of blank rows, which will be helpful in our analysis as well as data processing load.
 
-This code chunk counted, checked, and printed number of duplicates:
+This code chunk counted, checked, and printed number of duplicates based on the data's primary key (ride_id):
 ````R
-# Check for duplicates in clean_combined_data
-duplicates <- duplicated(clean_combined_data)
+# Check for duplicates in clean_combined_data based on ride_id
+duplicates <- duplicated(clean_combined_data$ride_id)
 
-# Count the number of duplicate rows
+# Count the number of duplicate ride ids
 num_duplicates <- sum(duplicates)
 
-# Print the count of duplicate rows
+# Print the count of duplicate ride ids
 print(num_duplicates)
-
-# Export dataframe into csv
-write.csv(clean_combined_data, file = "2023clean_tripdata.csv", row.names = FALSE )
 ````
 ![alt text](https://github.com/trustinvo/casestudy/blob/main/duplicates%20validation.png)
 
