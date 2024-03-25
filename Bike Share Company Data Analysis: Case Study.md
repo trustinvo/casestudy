@@ -150,6 +150,7 @@ By observing consumer behavior, we can form conclusions that answer the question
 2. Why would casual riders buy annual memberships?
 3. How can the business use digital media to influence casual riders to become members?
 
+Subscription user types differ in their behavior by:
 - Casual subscribers tend to ride bikes for longer durations on average compared to member subscribers, while member subscribers take more rides in total.
 - Usage patterns: casual subscribers are more active on weekends and during warmer months, suggesting they may be visitors or tourists. In contrast, member subscribers are more active on weekdays and exhibit more consistent month-to-month behavior, indicating they are likely local residents using bikes for regular transportation.
 - Casual subscribers predominantly start their rides at tourist-centric areas like Chicago Harbor, member subscribers primarily start their rides in town, indicating they are likely local residents using bikes for regular transportation.
