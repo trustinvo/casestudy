@@ -76,9 +76,9 @@ num_duplicates <- sum(duplicates)
 # Print the count of duplicate ride ids
 print(num_duplicates)
 ````
-![alt text](https://github.com/trustinvo/casestudy/blob/main/duplicates%20validation.png)
+![alt text](https://github.com/trustinvo/casestudy/blob/main/dupe%20validation.png)
 
-> We have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL.
+> Okay cool, we have no duplicates, so I exported our data to import into Google Cloud to utilize Google BigQuery SQL.
 >
 > Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge, and definitely expanded my knowledge with working with such a massive dataset.
 
