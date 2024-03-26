@@ -173,7 +173,12 @@ This could include targeted advertising campaigns highlighting:
 
 ## Additional Analysis Opportunity
 
-Adding additional user information for each ride to the dataset would enhance a future analysis. This data could provide insights into user behavior, particularly among frequent riders who are local residents, but are casual subscribers. Studying consumer behavior in this demographic could offer valuable insights and opportunities for increasing annual memberships.
+Adding additional user information for each ride to the dataset would enhance a future analysis. This data could provide insights into user behavior, especially focusing on frequent riders who are local residents but yet are only casual subscribers. Studying consumer behavior in this demographic could offer valuable insights and opportunities for increasing annual memberships.
+
+
+
+
+
 
 
 
