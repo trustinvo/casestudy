@@ -1,4 +1,4 @@
-# Bike Share Company Data Analysis: Case Study ### *(10 min. read)*
+# Bike Share Company Data Analysis: Case Study *(10 min. read)*
 
 ## Introduction
 
