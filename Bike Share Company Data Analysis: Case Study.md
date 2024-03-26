@@ -142,7 +142,7 @@ I wanted to start my analysis with some preliminary summary statistics to help m
 
 > Here's the kicker -- the ending locations of both subscriber types are nearly identical. We can conclude that both subscriber types only really vary where they start their rides, but are ending their rides around the same places -- most notably Fulton River District and Logan Square. These neighborhoods are communities known for their vibrant eateries/bars.
 
-## Conclusion and Wrap Up
+## Insights Wrap Up
 
 By observing consumer behavior, we can form conclusions that answer the questions we planned to answer at the beginning of this analysis.
 
@@ -172,9 +172,13 @@ Some forms of a targeted advertising campaigns could be:
 - Providing user-friendly online registration processes and offering flexible membership options can also encourage casual riders to make the switch to becoming long-term members.
 - Digital media strategy targeting casual subscribers in their starting locations (ie. offering exclusive promotional pricing if users sign up within a specified timeframe after receiving the notification when in a starting location vicinity).
 
-To wrap up -- this project provided an opportunity to explore and analyze a vast dataset from a bike share business, comprising over 5 million observations. The dataset encompassed various columns detailing ride information, such as starting and ending locations, timestamps, and ride types, as well as user information, including subscription types. Notably, the dataset featured two distinct subscription types: "casual" and "member." Casual subscribers utilize the service on a pay-as-you-go basis with minimal commitment, whereas member subscribers have opted for long-term subscriptions, offering them enhanced benefits. Through this analysis, insights were gained into user behavior and subscription preferences within the bike share ecosystem, contributing to a deeper understanding of usage patterns and potential areas for further optimization.
+## Conclusion
 
-Thank *you* for reading!
+This project provided an opportunity to explore and analyze a vast dataset from a bike share business, comprising over 5 million observations. The dataset encompassed various columns detailing ride information, such as starting and ending locations, timestamps, and ride types, as well as user information, including subscription types. Notably, the dataset featured two distinct subscription types: "casual" and "member." Casual subscribers utilize the service on a pay-as-you-go basis with minimal commitment, whereas member subscribers have opted for long-term subscriptions, offering them enhanced benefits. Through this analysis, insights were gained into user behavior and subscription preferences within the bike share ecosystem, contributing to a deeper understanding of usage patterns and potential areas for further optimization.
+
+I hope you learned about the data and the analysis as much as I learned while working on this project!
+
+*Thank you* for reading!
 
 ## Additional Analysis Opportunity
 
