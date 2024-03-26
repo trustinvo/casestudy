@@ -165,8 +165,8 @@ There is also value in analyzing/targeting frequent riders who are casual subscr
 
 Marketing efforts can be used to influence casual riders to become members by leveraging strategies tailored to address their needs and preferences. 
 
-This could include targeted advertising campaigns highlighting:
-- This alternative form of public transportation fosters environmental consciousness, flexibility to ride whenever, avoidance of traffic congestion, and/or waiting in lines.
+Some forms of a targeted advertising campaigns could be:
+- Why bike sharing is a better form of transportation (ie. carbon footprint "savings" comparison to other forms, flexibility to ride whenever, eliminates the inconvenience of traffic congestion and waiting in lines).
 - Benefits of annual memberships, such as cost savings for frequent users, convenience of unlimited rides, and access to member-exclusive perks.
 -  Utilize social media platforms to engage with casual riders, share testimonials from satisfied members, and offer limited-time promotions or discounts to incentivize membership sign-ups.
 - Providing user-friendly online registration processes and offering flexible membership options can also encourage casual riders to make the switch to becoming long-term members.
