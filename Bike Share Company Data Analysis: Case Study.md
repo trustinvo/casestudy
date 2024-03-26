@@ -159,7 +159,7 @@ Despite variations in starting locations, both subscriber types tend to end thei
 
 While casual subscribers are typically visitors/tourists, there is an opportunity to convert the casual subscribers that are local residents into annual subscribers.
 
-Casual, local resident riders might opt for annual memberships due to factors such as cost-effectiveness for frequent users, convenience, or potential incentives offered by the bike share program. Although casual riders typically use the service sporadically, an annual membership could provide them with added benefits like discounted rates or access to exclusive events or locations. Also, if casual riders find themselves using the bike share service frequently during their visits to the area, they may see value in investing in an annual membership for long-term savings and convenience if we shine light on what could be valuable to a frequent user. 
+Casual, local resident riders might opt for annual memberships due to factors such as cost-effectiveness for frequent users, convenience, or potential incentives offered by the bike share program. Although casual riders typically use the service sporadically, an annual membership could provide them with added benefits like discounted rates, a more convenient rider experience, an additional member-exclusive perks. If casual riders find themselves using the bike share service frequently during their visits to the area, they may see value in investing in an annual membership for long-term savings and convenience if we shine light on what could be valuable to a frequent user. 
 
 There is also value in analyzing/targeting frequent riders who are casual subscribers that would reap the benefits of an annual membership but for whatever reason are not annual members.
 
@@ -170,6 +170,10 @@ This could include targeted advertising campaigns highlighting:
 - Benefits of annual memberships, such as cost savings for frequent users, convenience of unlimited rides, and access to member-exclusive perks.
 -  Utilize social media platforms to engage with casual riders, share testimonials from satisfied members, and offer limited-time promotions or discounts to incentivize membership sign-ups.
 - Providing user-friendly online registration processes and offering flexible membership options can also encourage casual riders to make the switch to becoming long-term members.
+
+To wrap up -- this project provided an opportunity to explore and analyze a vast dataset from a bike share business, comprising over 5 million observations. The dataset encompassed various columns detailing ride information, such as starting and ending locations, timestamps, and ride types, as well as user information, including subscription types. Notably, the dataset featured two distinct subscription types: "casual" and "member." Casual subscribers utilize the service on a pay-as-you-go basis with minimal commitment, whereas member subscribers have opted for long-term subscriptions, offering them enhanced benefits. Through this analysis, insights were gained into user behavior and subscription preferences within the bike share ecosystem, contributing to a deeper understanding of usage patterns and potential areas for further optimization.
+
+Thank *you* for reading!
 
 ## Additional Analysis Opportunity
 
