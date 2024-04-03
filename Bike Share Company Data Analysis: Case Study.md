@@ -163,7 +163,7 @@ Casual, local resident riders might opt for annual memberships due to factors su
 
 There is also value in analyzing/targeting frequent riders who are casual subscribers that would reap the benefits of an annual membership but for whatever reason are not annual members.
 
-Marketing efforts can be used to influence casual riders to become members by leveraging strategies tailored to address their needs and preferences. 
+Marketing efforts can be used to influence these casual riders to become members by leveraging strategies tailored to address their needs and preferences. 
 
 Some forms of a targeted advertising campaigns could be:
 - Why bike sharing is a better form of transportation (ie. carbon footprint "savings" comparison to other forms, flexibility to ride whenever, eliminates the inconvenience of traffic congestion and waiting in lines).
