@@ -172,11 +172,9 @@ Some forms of a targeted advertising campaigns could be:
 - Providing user-friendly online registration processes and offering flexible membership options can also encourage casual riders to make the switch to becoming long-term members.
 - Digital media strategy targeting casual subscribers in their starting locations (ie. offering exclusive promotional pricing if users sign up within a specified timeframe after receiving the notification when in a starting location vicinity).
 
-## Conclusion
-
 This project provided an opportunity to explore and analyze a vast dataset from a bike share business, containing over 5 million observations. The dataset featured various columns detailing ride information, such as starting and ending locations, timestamps, and ride types, as well as user information, including subscription types. Notably, the dataset featured two distinct subscription types: "casual" and "member." Casual subscribers utilize the service on a pay-as-you-go basis with minimal commitment, whereas member subscribers have opted for long-term subscriptions, offering them enhanced benefits. Through this analysis, insights were gained into user behavior and subscription preferences within the bike share ecosystem, contributing to a deeper understanding of usage patterns and potential areas for further optimization.
 
-I hope you learned about the data and the analysis as much as I learned while working on this project.
+I hope you gained as much knowledge about the data and analysis as I did while working on this project.
 
 *Thank you* for reading!
 
