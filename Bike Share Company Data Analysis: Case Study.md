@@ -82,7 +82,7 @@ print(num_duplicates)
 >
 > Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge I wanted to face, and definitely expanded my knowledge with working with massive datasets.
 
-I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data. This code chunk below is detailed in its blockquote underneath.
+I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data. This SQL code chunk below is detailed in its blockquote underneath.
 
 ````SQL
 SELECT *,
