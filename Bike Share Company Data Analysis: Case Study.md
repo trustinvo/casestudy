@@ -14,7 +14,7 @@ With a detailed analysis, I wanted to answer these questions:
 
 Because the data was on a month-to-month basis, I knew I was going to be able to have a large sample size to draw insights from. The bigger the sample size, the more accurate the analysis will be. The available data were monthly datasets, and to analyze the whole year, I was going to have to combine the last 12 months of data. Because of the size of the dataset, I leveraged R, knowing R's capabilities of processing large amounts of data efficiently. With any dataset, it is essential to clean and prepare the data to ensure a clear and accurate analysis.
 
-This code chunk quickly merged all the monthly data .csv files:
+This script quickly merged all the monthly data .csv files:
 ````R
 # Install and load the dplyr package if not already installed
 # 
@@ -37,7 +37,7 @@ combined_data <- lapply(csv_files, read.csv) %>%
 write.csv(combined_data, "all2023_tripdata.csv", row.names = FALSE)
 ````
 
-This code chunk validated all ride_IDs had the same amount of 16 characters to be used as a primary key in our analysis:
+This script validated all ride_IDs had the same amount of 16 characters to be used as a primary key in our analysis:
 ````R
 # Check the number of characters in each ride_id
 ride_id_lengths <- nchar(combined_data$ride_id)
@@ -53,7 +53,7 @@ if (all_16_characters) {
 }
 ````
 
-This code chunk removed all blank rows:
+This script removed all blank rows:
 ````R
 # Replace empty strings with NA in combined_data
 combined_data[combined_data == ""] <- NA
@@ -65,7 +65,7 @@ clean_combined_data <- na.omit(combined_data)
 
 > We can see that we removed ~1.3 million observations of blank rows, which will be helpful in our analysis as well as data processing load.
 
-This code chunk counted, checked, and printed number of duplicates based on the data's primary key (ride_id):
+This script counted, checked, and printed number of duplicates based on the data's primary key (ride_id):
 ````R
 # Check for duplicates in clean_combined_data based on ride_id
 duplicates <- duplicated(clean_combined_data$ride_id)
@@ -82,7 +82,7 @@ print(num_duplicates)
 >
 > Admittedly, I faced challenges troubleshooting this import since I had never worked with a dataset with 4 million+ observations. But that was part of the challenge I wanted to face, and definitely expanded my knowledge with working with massive datasets.
 
-I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data. This SQL code chunk below is detailed in its blockquote underneath.
+I wanted my analysis to additionally categorize the ride information by day of the week and ride length. I also wanted to further clean the data. This SQL script below is detailed in its blockquote underneath.
 
 ````SQL
 SELECT *,
